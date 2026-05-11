@@ -43,37 +43,37 @@
 
         default_layer {
             bindings = <
-&kp TAB     &kp Q         &kp W         &kp E  &kp R        &kp T          &kp Y         &kp U                    &kp I         &kp O           &kp P           &kp DELETE
-&kp LCTRL   &kp A         &kp S         &kp D  &kp F        &kp G          &kp H         &kp J                    &kp K         &kp L           &kp MINUS       &kp ENTER
-&kp LSHIFT  &kp Z         &kp X         &kp C  &kp V        &kp B          &kp N         &kp M                    &kp COMMA     &kp DOT         &kp UP_ARROW    &none
-&kp LCTRL   &kp LEFT_WIN  &kp LEFT_ALT  &none  &lt 2 SPACE  &lt 1 SPACE    &lt 3 ESCAPE  &kp LANG_ZENKAKUHANKAKU  &kp JP_QUOTE  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
+&kp LANG_ZENKAKUHANKAKU  &kp Q         &kp W         &kp E  &kp R        &kp T          &kp Y         &kp U  &kp I      &kp O           &kp P           &kp DELETE
+&kp TAB                  &kp A         &kp S         &kp D  &kp F        &kp G          &kp H         &kp J  &kp K      &kp L           &kp MINUS       &kp ENTER
+&kp LSHIFT               &kp Z         &kp X         &kp C  &kp V        &kp B          &kp N         &kp M  &kp COMMA  &kp DOT         &kp UP_ARROW    &none
+&kp LCTRL                &kp LEFT_WIN  &kp LEFT_ALT  &none  &lt 2 SPACE  &lt 1 SPACE    &lt 3 ESCAPE  &none  &none      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
             >;
         };
 
         layer_1 {
             bindings = <
-&trans  &none   &none   &none   &none   &none     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &none  &none  &none
-&trans  &none   &none   &none   &none   &none     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &none  &none  &none
-&trans  &none   &none   &none   &none   &none     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &none  &none  &none
-&trans  &trans  &trans  &trans  &trans  &trans    &kp NUMBER_0  &kp NUMBER_0  &none         &none  &none  &none
+&trans  &none   &none   &none   &none        &none     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &none  &none  &none
+&trans  &none   &none   &none   &kp AT_SIGN  &none     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &none  &none  &none
+&trans  &none   &none   &none   &none        &none     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &none  &none  &none
+&trans  &trans  &trans  &trans  &trans       &trans    &kp NUMBER_0  &kp NUMBER_0  &none         &none  &none  &none
             >;
         };
 
         layer_2 {
             bindings = <
-&trans  &kp EXCLAMATION  &kp JP_AT  &kp POUND  &kp DOLLAR  &kp PERCENT     &kp JP_CARET  &kp JP_AMPERSAND   &kp JP_ASTERISK   &kp MINUS    &kp UNDERSCORE   &trans
-&trans  &kp GRAVE        &kp TILDE  &trans     &trans      &kp C_VOL_UP    &kp C_VOL_DN  &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &kp JP_PLUS  &kp JP_ASTERISK  &trans
-&trans  &trans           &trans     &trans     &trans      &trans          &trans        &trans             &trans            &trans       &trans           &trans
-&trans  &trans           &trans     &trans     &trans      &trans          &trans        &trans             &trans            &trans       &trans           &trans
+&trans  &none   &none   &none   &none       &none     &kp LEFT_BRACKET   &kp RIGHT_BRACKET  &none  &none  &none  &none
+&trans  &none   &none   &none   &kp DELETE  &none     &kp SEMICOLON      &kp COLON          &none  &none  &none  &none
+&trans  &none   &none   &none   &none       &none     &kp SLASH          &kp BACKSLASH      &none  &none  &none  &none
+&trans  &trans  &trans  &trans  &trans      &trans    &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE   &none  &none  &none  &none
             >;
         };
 
         layer_3 {
             bindings = <
-&trans        &kp F1        &kp F2        &kp F3        &kp F4          &kp F5         &kp F6  &kp F7          &kp F8          &kp F9           &kp F10  &kp F11
-&trans        &trans        &trans        &trans        &trans          &trans         &trans  &kp LEFT_ARROW  &kp UP_ARROW    &kp RIGHT_ARROW  &trans   &kp F12
-&trans        &trans        &trans        &trans        &bt BT_CLR_ALL  &bootloader    &trans  &trans          &kp DOWN_ARROW  &trans           &trans   &trans
-&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans         &trans  &trans          &trans          &trans           &trans   &kp LA(F4)
+&trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp F7  &kp F8  &kp F9  &none  &none  &none
+&trans  &none         &none         &none         &none         &none           &kp F4  &kp F5  &kp F6  &none  &none  &none
+&trans  &none         &none         &none         &none         &none           &kp F1  &kp F2  &kp F3  &none  &none  &none
+&trans  &trans        &trans        &trans        &trans        &trans          &trans  &none   &none   &none  &none  &none
             >;
         };
 
