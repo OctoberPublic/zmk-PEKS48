@@ -68,19 +68,19 @@
 
         layer_1 {
             bindings = <
-&trans  &none   &none   &none   &none        &none     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &none  &none  &none
-&trans  &none   &none   &none   &kp AT_SIGN  &none     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &none  &none  &none
-&trans  &none   &none   &none   &none        &none     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &none  &none  &none
-&trans  &trans  &trans  &trans  &trans       &trans    &kp NUMBER_0  &kp NUMBER_0  &none         &none  &none  &none
+&trans  &none   &none   &none   &none             &none     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &none  &none  &none
+&trans  &none   &none   &none   &kp LEFT_BRACKET  &none     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &none  &none  &none
+&trans  &none   &none   &none   &none             &none     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &none  &none  &none
+&trans  &trans  &trans  &trans  &trans            &trans    &kp NUMBER_0  &kp NUMBER_0  &none         &none  &none  &none
             >;
         };
 
         layer_2 {
             bindings = <
-&trans  &none   &none   &none   &none       &none     &kp LEFT_BRACKET   &kp RIGHT_BRACKET    &none  &none  &kp INTERNATIONAL_3  &none
-&trans  &none   &none   &none   &kp DELETE  &none     &kp SEMICOLON      &kp COLON            &none  &none  &none                &none
+&trans  &none   &none   &none   &none       &none     &kp RIGHT_BRACKET  &kp BACKSLASH        &none  &none  &kp INTERNATIONAL_3  &kp EQUAL
+&trans  &none   &none   &none   &kp DELETE  &none     &kp SEMICOLON      &kp SINGLE_QUOTE     &none  &none  &none                &none
 &trans  &none   &none   &none   &none       &none     &kp SLASH          &kp INTERNATIONAL_1  &none  &none  &none                &none
-&trans  &trans  &trans  &trans  &trans      &trans    &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE     &none  &none  &none                &none
+&trans  &trans  &trans  &trans  &trans      &trans    &kp AT             &kp AMPERSAND        &none  &none  &none                &none
             >;
         };
 
