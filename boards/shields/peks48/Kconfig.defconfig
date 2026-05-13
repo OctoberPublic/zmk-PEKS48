@@ -36,7 +36,10 @@ config PMW3610_SWAP_XY
     default n
 
 config RGBLED_WIDGET_BATTERY_LEVEL_HIGH
-    default 30
+    default 80
+
+config RGBLED_WIDGET_BATTERY_LEVEL_LOW
+    default 20
 
 config RGBLED_WIDGET_BATTERY_LEVEL_CRITICAL
     default 10
